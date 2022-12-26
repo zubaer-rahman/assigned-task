@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    background-color: #F0F0F0;
+
+}
+.leftSideNav{
+    background-color: #FFFFFF;
+    height: 1024px;
+}
+.topNav{
+    background-color: #FFFFFF;
+    height: 79px;
+    margin-bottom: 17px;
+}
+.mainContent{
+    background-color: #FFFFFF;
+    height: 462px;
+    margin-left: 4px;
+    margin-right: 16px;
+}
+.left-img img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 29px;
+    margin-left: 17px;
+}
+#heading{
+    font-family: Manrope;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 33px;
+    line-height: 100%;
+    color: #4CAF50;
+}
+.large-img img{
+    margin-left: 18px;
+}
+#redirect{
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 100%;
+    color: #4CAF50;
+}
+.col-md-3 p{
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 12px;
+    Line-height: 15px;
+    line-height: 100%;
+}
+.box{
+    background-color: #4CAF50;
+    background-image: url(../../../public/images/Rectangle\ 471.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 99px;
+    width: 104px; 
+    margin-left: 16px;
+    box-shadow: 0px 0px 15px 1px gainsboro;
+
+}
+.box p{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 10px;
+    line-height: 22px;
+    line-height: 182%;
+    color: #FFFFFF;
+}
+.box h4{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 41px;
+    line-height: 169%;
+    color: #FFFFFF;
+}
+.box-2{
+    height: 99px;
+    width: 255px;
+    padding: 10px;
+    margin-left: 14px;
+    border-radius: 5px;
+    background-image: url(../../../public/images/Vector\ 12.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    box-shadow: 0px 0px 15px 1px gainsboro;
+ }
+.box-3{
+    padding: 10px;
+    height: 99px;
+    width: 225px; 
+    margin-left: 14px;
+    border-radius: 5px 5px 0 5px;
+    background-image: url(../../../public/images/Rectangle\ 469.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 0px 0px 15px 1px gainsboro;
+}
+.bullet{
+    font-family: Inter;
+    font-style: medium;
+    font-size: 5px;
+    line-height: 22px;
+    line-height: 364%;
+    color: #AAA8A8;
+    margin-top:-5px;
+}
+.bullet2{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 10px;
+    line-height: 22px;
+    line-height: 182%;
+    color: #0F364B;
+    margin-top:-15px;
+}
+.bullet3{
+    font-family: Inter;
+    font-style: medium;
+    font-size: 6px;
+    line-height: 22px;
+    line-height: 303%;
+    color: #AAA8A8;
+    margin-left: 5px;
+ }
+ .footer{
+    margin-left: 15px;
+    margin-top: 40px;
+ }
+ #foo1{
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 9px;
+    line-height: 22px;
+    line-height: 202%;
+    color: rgba(0, 0, 0, 0.45);
+ }
+ #foo2{
+    font-family: Inter;
+    font-style: Mixed;
+    font-size: 9px;
+    line-height: 22px;
+    line-height: 202%;
+    color: rgba(0, 0, 0, 0.45);
+ }
+ #text-edit{
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 13px;
+    line-height: 22px;
+    line-height: 140%;
+    color: #000000;
+    margin: 35px 35px 0 0;
+ }
+ #text-back{
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    color: #333333;
+    margin: 35px 0 0  35px;
+ }
