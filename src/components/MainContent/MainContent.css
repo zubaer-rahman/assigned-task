@@ -1,23 +1,340 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 body{
-    background-color: #F0F0F0;
+    height: 1024px;
+    width: 1440px;
+    background: #F0F0F0;
+}
+.leftNav{
+    position: absolute;
+    width: 323px;
+    height: 1024px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+.topContent{
+    position: absolute;
+    width: 1117px;
+    height: 79px;
+    left: 323px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.middleContent{
+    position: absolute;
+    width: 1085px;
+    height: 472px;
+    left: 323px;
+    top: 79px;
+    background: #FFFFFF;
+    margin: 17px 0 0 4px;
+}
+.bottomContent{
+    position: absolute;
+    width: 1085px;
+    height: 443.11px;
+    left: 323px;
+    top: 568px;
+    background: #FFFFFF;
+    margin: 7.89px 0 0 4px;
+}
+.brand img{
+    position: absolute;
+    width: 150px;
+    height: 118.03px;
+    left: 87px;
+    top: 20px;
+}
+.collar{
+    position: absolute;
+    width: 323px;
+    height: 32px;
+    left: 0px;
+    top: 145px;
+    background: #47CC4D;
+}
+.grower{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 126px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.dashboard{
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 53px;
+    top: 231px;
+}
+.dashboard img{
+    margin-right: 25px;
+}
+.menuText{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.inventory{
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 52px;
+    top: 300px;
+    z-index: 1;
+}
+.inventory img{
+    margin-right: 24px;
+}
+.bg-inventory{
+    position: absolute;
+    width: 323px;
+    height: 60px;
+    left: 0px;
+    top: 282px;
+    background: rgba(76, 175, 80, 0.17);
+    border-left: 19px solid  #4CAF50;;
+}
+.marketplace{
+    position: absolute;
+    width: 216px;
+    height: 25px;
+    left: 53px;
+    top: 367px;
+}
+.marketplace #img1{
+    margin-right: 24px;
+}
+.marketplace #img2{
+    margin: 4px 0 0 56px;
 
 }
-.leftSideNav{
-    background-color: #FFFFFF;
-    height: 1024px;
+.auction{
+    position: absolute;
+    width: 216px;
+    height: 22px;
+    left: 53px;
+    top: 431px;
 }
-.topNav{
-    background-color: #FFFFFF;
+.auction #img1{
+    margin-right: 28px;
+}
+.auction #img2{
+    margin: 4px 0 0 97px;
+
+}
+.orders{
+    position: absolute;
+    width: 104px;
+    height: 22px;
+    left: 53px;
+    top: 495px;
+}
+.orders img{
+    margin-right: 28px;
+}
+.transports{
+    position: absolute;
+    width: 216px;
+    height: 25px;
+    left: 53px;
+    top: 559px;
+
+}
+.transports #img1{
+    margin-right: 25px;
+}
+.transports #img2{
+    margin: 4px 0 0 72px;
+
+}
+.labratories{
+    position: absolute;
+    width: 143px;
+    height: 26.14px;
+    left: 53px;
+    top: 626px;
+}
+.labratories img{
+    margin-right: 29.48px;
+}
+.transaction{
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    left: 53px;
+    top: 694px;
+}
+.transaction img{
+    margin-right: 28px;
+}
+.settings{
+    position: absolute;
+    width: 117px;
+    height: 22px;
+    left: 53px;
+    top: 760px;
+}
+.settings img{
+    margin-right: 28.48px;
+}
+ 
+#imgl{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 911px;
+    top: 23.23px;
+}
+#imgm1{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 960px;
+    top: 23.23px;
+}
+#imgm2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1011px;
+    top: 19px;
+
+}
+#imgr{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 1077px;
+    top: 23.23px;
+}
+.topContent p{
+    position: absolute;
+    left: 28px;
+    top: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.45);
+}
+.topContent p b{
+    color: rgba(0, 0, 0, 0.85);
+}
+.bottomTop p{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+    top: 23.11px;
+}
+#bottomTopP1{
+    width: 77px;
+    left: 34px;
+    color: rgba(0, 0, 0, 0.45);
+}
+#bottomTopP2{
+    width: 75px;
+    left: 165px;
+    color: #4CAF50;
+}
+#bottomTopP3{
+    width: 87px;
+    left: 294px;
+    color: rgba(0, 0, 0, 0.45);
+
+}
+#bottomTopP4{
+    width: 76.44px;
+    left: 435px;
+    color: rgba(0, 0, 0, 0.45);
+}
+#hline{
+    position: absolute;
+    width: 1029px;
+    height: 0px;
+    left: 29px;
+    top: 57.11px;
+    border: 1px solid #D9D9D9;
+}
+.greenline{
+    position: absolute;
+    width: 54px;
+    height: 3px;
+    left: 165px;
+    top: 54.11px;
+    background: #4CAF50;
+}
+.insight{
+    position: absolute;
+    width: 333px;
+    height: 385.87px;
+    margin-left: 0px;
+    left: 725px;
+    top: 57.24px;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.03);
+}
+#aucOver{
+    position: absolute;
+    width: -1px;
+    height: 17px;
+    left: 22px;
+    top: 78.82px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.aucOver{
+    position: absolute;
+    width: 681px;
     height: 79px;
-    margin-bottom: 17px;
+    left: 29px;
+    margin-left: 0px;
+    border: 1px solid #F1F1F1;
+    border-radius: 2px;
 }
+#live{
+    top:  116.11px;
+    filter: drop-shadow(0px 2px 25px rgba(0, 0, 0, 0.03));
+}
+#remain{
+    top:  206.11px;
+    background: #F4F4F4;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.03);
+ 
+}
+#award{
+    top: 296.11px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.03);
+}
+
+/* previous style */
 .mainContent{
     background-color: #FFFFFF;
     height: 462px;
@@ -25,10 +342,22 @@ body{
     margin-right: 16px;
 }
 .left-img img{
+    position: absolute;
     width: 60px;
     height: 60px;
-    margin-bottom: 29px;
-    margin-left: 17px;
+    left: 17px;
+}
+#leftImg1{
+    top: 76px;
+}
+#leftImg2{
+    top: 165px;
+}
+#leftImg3{
+    top: 254px;
+}
+#leftImg4{
+    top: 343px;
 }
 #heading{
     font-family: Manrope;
@@ -39,7 +368,11 @@ body{
     color: #4CAF50;
 }
 .large-img img{
-    margin-left: 18px;
+    position: absolute;
+    width: 338px;
+    height: 328px;
+    left: 111px;
+    top: 76px;
 }
 #redirect{
     font-family: Inter;
@@ -153,20 +486,43 @@ body{
     color: rgba(0, 0, 0, 0.45);
  }
  #text-edit{
-    font-family: Inter;
-    font-style: Semi Bold;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    left: 1025.69px;
+    top: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
     font-size: 13px;
     line-height: 22px;
-    line-height: 140%;
+    
     color: #000000;
-    margin: 35px 35px 0 0;
+
  }
  #text-back{
-    font-family: Inter;
-    font-style: Medium;
+    position: absolute;
+    left: 17px;
+    top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    line-height: 100%;
+
     color: #333333;
-    margin: 35px 0 0  35px;
+
+ }
+ .liveTop p{
+    position: absolute;
+    top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 22px;
+    color: #605E5E;
+
  }
